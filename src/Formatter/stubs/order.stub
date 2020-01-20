@@ -1,0 +1,11 @@
+﻿<Request service="OrderService" lang="zh-CN">
+    <Head>CustomerCode</Head>
+    <Body>
+        <Order orderid="OrderId" express_type='Type'
+               j_province='FromProvince' j_city='FromCity' j_company='FromCompany' j_contact='FromContact' j_tel='FromTel' j_address='FromAddress'
+               d_province='ToProvince' d_city='ToCity' d_county='ToCounty' d_company='ToCompany' d_contact='ToContact' d_tel='ToTel' d_address='ToAddress'
+               parcel_quantity='ParcelQuantity' pay_method='PayMethod' custid ='CustomId'>
+                <Cargo name='CargoName'></Cargo>
+         </Order>
+    </Body>
+</Request>

@@ -1,0 +1,6 @@
+﻿<Request service='OrderSearchService' lang='zh-CN'>
+    <Head>CustomerCode</Head>
+    <Body>
+        <OrderSearch orderid="OrderId"/>
+    </Body>
+</Request>

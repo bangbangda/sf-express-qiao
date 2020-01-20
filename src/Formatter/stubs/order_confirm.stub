@@ -1,0 +1,6 @@
+﻿<Request service="OrderConfirmService" lang="zh-CN">
+    <Head>CustomerCode</Head>
+    <Body>
+        <OrderConfirm orderid="OrderId" dealtype="DealType"></OrderConfirm>
+    </Body>
+</Request>
