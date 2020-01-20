@@ -1,10 +1,10 @@
 <?php
-namespace Aries\FengQiao\Formatter;
+namespace Bangbangda\FengQiao\Formatter;
 
 
 /**
  * Class XmlFormatter
- * @package Aries\FengQiao\Formatter
+ * @package Bangbangda\FengQiao\Formatter
  */
 abstract class XmlFormatter implements Formatter
 {

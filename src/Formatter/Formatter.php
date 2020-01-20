@@ -1,9 +1,9 @@
 <?php
-namespace Aries\FengQiao\Formatter;
+namespace Bangbangda\FengQiao\Formatter;
 
 /**
  * Interface Formatter
- * @package Aries\FengQiao\Formatter
+ * @package Bangbangda\FengQiao\Formatter
  */
 interface Formatter
 {

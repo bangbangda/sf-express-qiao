@@ -1,13 +1,13 @@
 <?php
-namespace Aries\FengQiao\Requests;
+namespace Bangbangda\FengQiao\Requests;
 
-use Aries\FengQiao\Formatter\XmlFormatter;
+use Bangbangda\FengQiao\Formatter\XmlFormatter;
 
 /**
  * 订单确认、取消
  *
  * Class OrderConfirmRequest
- * @package Aries\FengQiao
+ * @package Bangbangda\FengQiao
  */
 class OrderConfirmRequest extends XmlFormatter
 {

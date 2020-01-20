@@ -1,5 +1,5 @@
 <?php
-namespace Aries\FengQiao\Exceptions;
+namespace Bangbangda\FengQiao\Exceptions;
 
 
 class ConfigException extends \Exception

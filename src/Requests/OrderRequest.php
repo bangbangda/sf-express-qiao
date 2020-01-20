@@ -1,13 +1,13 @@
 <?php
-namespace Aries\FengQiao\Requests;
+namespace Bangbangda\FengQiao\Requests;
 
-use Aries\FengQiao\Formatter\XmlFormatter;
+use Bangbangda\FengQiao\Formatter\XmlFormatter;
 
 /**
  * 下单
  *
  * Class OrderRequest
- * @package Aries\FengQiao
+ * @package Bangbangda\FengQiao
  */
 class OrderRequest extends XmlFormatter
 {
@@ -23,8 +23,9 @@ class OrderRequest extends XmlFormatter
     public function getReplaceKey() : array
     {
         return [
-            'CustomerCode', 'OrderId', 'Type', 'FromProvince', 'FromCity', 'FromCompany', 'FromContact', 'FromTel', 'FromAddress',
-            'ToProvince', 'ToCity', 'ToCounty', 'ToCompany', 'ToContact', 'ToTel', 'ToAddress', 'ParcelQuantity',
+            'CustomerCode', 'OrderId',
+            'FromCompany', 'FromContact', 'FromTel', 'FromMobile', 'FromProvince', 'FromCity', 'FromCounty', 'FromAddress',
+            'ToCompany', 'ToContact', 'ToTel', 'ToMobile', 'ToProvince', 'ToCity', 'ToCounty', 'ToAddress',
             'PayMethod', 'CustomId', 'CargoName'
         ];
     }

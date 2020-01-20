@@ -1,6 +1,6 @@
 {
-    "name": "aries/fengqiao",
-    "description": "Package description here.",
+    "name": "bangbangda/fengqiao",
+    "description": "顺丰快递丰桥平台快速集成，支持创建订单、订单查询、订单确认与取消.",
     "license": "MIT",
     "authors": [
         {
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Aries\\SfFengqiao\\": "src"
+            "Bangbangda\\FengQiao\\": "src"
         }
     }
 }

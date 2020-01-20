@@ -1,10 +1,10 @@
 <?php
-namespace Aries\FengQiao;
+namespace Bangbangda\FengQiao;
 
-use Aries\FengQiao\Formatter\XmlFormatter;
+use Bangbangda\FengQiao\Formatter\XmlFormatter;
 use GuzzleHttp\Client;
-use Aries\FengQiao\Exceptions\HttpException;
-use Aries\FengQiao\Exceptions\ConfigException;
+use Bangbangda\FengQiao\Exceptions\HttpException;
+use Bangbangda\FengQiao\Exceptions\ConfigException;
 
 class ExpressService
 {
